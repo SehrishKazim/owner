@@ -1,3 +1,9 @@
-console.log("hello");
-console.log ("123");
-console.log ("change")
+const pathName = (__filename);
+ 
+const fileName = pathName.split('\\').pop();
+
+console.log(fileName);
+
+
+
+
